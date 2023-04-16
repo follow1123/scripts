@@ -1,0 +1,5 @@
+cur_path=$(cd "$(dirname $0)"; pwd)/$0
+print_log="$USER_SCRIPT_HOME/log/print_log.sh -p $cur_path"
+print_info=$print_log
+print_error="$print_log -l 1"
+print_error="$print_log -l 2"

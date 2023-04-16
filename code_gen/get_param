@@ -1,0 +1,1 @@
+get_param="$USER_SCRIPT_HOME/common/get_param.sh $*"

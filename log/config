@@ -1,0 +1,5 @@
+info_path=/home/yf/log/info
+wran_path=/home/yf/log/wran
+error_path=/home/yf/log/error
+
+is_write=1
