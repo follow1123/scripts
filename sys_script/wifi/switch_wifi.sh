@@ -1,6 +1,6 @@
 #!/bin/sh
 
-shell_dir=/home/yf/wifi
+shell_dir=/home/yf/scripts/sys_script/wifi
 net_card=wlp3s0
 wifi_count=$(sh "$shell_dir/get_connected_count.sh")
 cur_id=$(sh "$shell_dir/get_current_id.sh")
