@@ -1,3 +1,4 @@
+#!/bin/sh
 # 星期
 week_info=$(date "+%w")
 case ${week_info} in 
@@ -26,4 +27,4 @@ case ${week_info} in
 		week_info="error"	
 		;;
 esac
-echo $week_info
+printf "%s" "$week_info"
