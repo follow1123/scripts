@@ -1,4 +1,9 @@
 #!/bin/sh
+
+case $BLOCK_BUTTON in
+        6) st nvim "$0";;
+esac
+
 # 星期
 week_info=$(date "+%w")
 case ${week_info} in 

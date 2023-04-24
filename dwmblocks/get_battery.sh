@@ -1,4 +1,8 @@
 #!/bin/sh
+
+case $BLOCK_BUTTON in
+        6) st nvim "$0";;
+esac
 # 电量
 battery=$(cat /sys/class/power_supply/BAT0/capacity)
 battery_info=$battery
