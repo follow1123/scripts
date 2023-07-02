@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sc_home="$HOME/scripts/volume"
+sc_home="$HOME/space/scripts/volume"
 case $BLOCK_BUTTON in
 	2) sh $sc_home/set_vol.sh > /dev/null;;
 	4) sh $sc_home/set_vol.sh 5%+ > /dev/null;;
