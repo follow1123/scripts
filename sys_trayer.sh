@@ -12,7 +12,7 @@ hide(){
 
 # 判断系统托盘是否在运行，并返回pid
 is_running(){
-	ps -ef | grep trayer | awk '/alpha 0$/{print $2}'
+	pidof trayer
 }
 
 if [ -n "$(is_running)" ]; then
