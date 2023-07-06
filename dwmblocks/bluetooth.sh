@@ -25,6 +25,7 @@ function connect_and_set_volume(){
 	connect $device
 	sleep 3
 	set_volume $volume
+	update_volume
 }
 
 # 没有点击事件的默认处理事件
