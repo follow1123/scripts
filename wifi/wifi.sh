@@ -27,3 +27,14 @@ function reload_ip(){
 	dhclient -r > /dev/null
 	dhclient > /dev/null
 }
+
+# 获取当前连接的wifi
+function get_connected_name(){
+	wpa_cli -i $netcard list_networks | awk '/CURRENT/{print $2}'
+}
+
+# 获取已连接wifi的id
+function get_connected_id(){
+	wpa_cli -i wlp0s20f3 list_networks | awk '/CURRENT/{print $1}'
+}
+
