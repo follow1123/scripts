@@ -1,1 +1,1 @@
-feh --bg-fill --randomize $HOME/space/images/*
+feh --bg-fill --randomize $HOME/space/images/wallpapers/*

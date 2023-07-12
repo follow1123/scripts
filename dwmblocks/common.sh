@@ -55,7 +55,7 @@ function update_bluetooth(){
 	update_blocks block_bluetooth
 }
 function update_battery(){
-	update_blocks block_bottery
+	update_blocks block_battery
 }
 function update_time(){
 	update_blocks block_time
@@ -65,4 +65,13 @@ function update_week(){
 }
 function update_trayer(){
 	update_blocks block_trayer
+}
+
+
+function print_empty(){
+	printf "%s" ""
+}
+
+function print_str(){
+	printf "%s" "$1"
 }

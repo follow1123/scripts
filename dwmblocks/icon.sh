@@ -7,3 +7,4 @@ case $BLOCK_BUTTON in
 esac
 
 printf "%s" ""
+# printf "%s" "~4"

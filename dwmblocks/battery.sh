@@ -30,6 +30,10 @@ function get_battery_level(){
 
 function defalut_event(){
 	battery_level=$(get_battery_level)
+	if [ $battery_level -ge 60 ] && [ "$(is_show)" = "0" ]; then
+		print_empty
+		exit
+	fi
 	if [ $battery_level -le 10 ]; then
 		printf "%s" "$icon_bat_10"
 	elif [ $battery_level -le 20 ]; then
